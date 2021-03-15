@@ -68,3 +68,4 @@ ex) enemy_power  = 100, D_P = 50, Deal = 50
 
 rtsts
 
+응애
