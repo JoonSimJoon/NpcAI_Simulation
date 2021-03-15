@@ -24,3 +24,19 @@ AI의 기초적인 형태는 규칙 기반 알고리즘으로 구성할 예정�
 
 ------
 
+<20210315> Status 
+
+healthpoint = 초기값 100, 변화값 10
+Defand_power = 상대의 순수공격력의 Defand_power의 퍼센트만큼 안받음 
+
+ex) enemy_power  = 100, D_P = 50, Deal = 50
+
+Attack_Speed  = 1초당 Attack_Speed만큼 공격을 함. time()써서 하면될듯
+
+Avoidance_power = 회피퍼센트. 상대 공격마다 계산
+
+Attack_power 순수 공격력
+
++++ 추가하면 좋은것들
+
+마법 방어력, 물리 방어력, 생명력 흡수, 고정데미지
