@@ -27,22 +27,28 @@ AI의 기초적인 형태는 규칙 기반 알고리즘으로 구성할 예정�
 <20210315> Status 
 
 1. healthpoint = 초기값 100, 변화값 10
-2. Defand_power = 상대의 순수데미지의 Defand_power의 퍼센트만큼 안받음 
+
+   Defand_power = 상대의 순수데미지의 Defand_power의 퍼센트만큼 안받음 
 
 ex) enemy_power  = 100, D_P = 50, Deal = 50
 
-3. Attack_Speed  = 1초당 Attack_Speed만큼 공격을 함. time()써서 하면될듯
+2. Attack_Speed  = 1초당 Attack_Speed만큼 공격을 함. time()써서 하면될듯
 
-4. Avoidance_power = 회피퍼센트. 상대 공격마다 계산
+3. Avoidance_power = 회피퍼센트. 상대 공격마다 계산
 
-5. Attack_power 순수 공격력
+4. Attack_power 순수 공격력
 
-6. Magic_Defand : Dp + 퍼센트 (로직 설계)
-7. Attack_Defand : Dp + 퍼센트 (로직 설계)
-8. Drain_power : 공격력의 퍼센트 만큼 생명력 흡수
-9. True_Damage : 어느 상태이든 트루데미지 딜은 넣는다.
-10. Hit_Rate: 상대의 회피력을 무시하는 개념
-11. Critical_power: 치명타 (고정데미지를 제외하는 데미지 1.5배 추가(250%의 데미지가 들어감))
+5. Magic_Defand : Dp + 퍼센트 (로직 설계)
+
+6. Attack_Defand : Dp + 퍼센트 (로직 설계)
+
+7. Drain_power : 공격력의 퍼센트 만큼 생명력 흡수
+
+8. True_Damage : 어느 상태이든 트루데미지 딜은 넣는다.
+
+9. Hit_Rate: 상대의 회피력을 무시하는 개념
+
+10. Critical_power: 치명타 (고정데미지를 제외하는 데미지 1.5배 추가(250%의 데미지가 들어감))
 
 +++ 추가하면 좋은것들
 
