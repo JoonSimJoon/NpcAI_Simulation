@@ -14,7 +14,7 @@ void init()
 				mob.Attack_Defand++;
 				break;
 			case 2:
-
+	
 			}
 		}
 		Vector_mob[0].push_back(mob);
