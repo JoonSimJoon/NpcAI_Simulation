@@ -13,21 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Source">
+      <UniqueIdentifier>{a382f487-ba93-4537-9839-a37867f2fb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Header">
+      <UniqueIdentifier>{212c2baf-70b3-4207-84a2-1cf60b6908e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Source</Filter>
     </ClCompile>
     <ClCompile Include="Mob.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Mob.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Main.h">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>소스 파일\Header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
