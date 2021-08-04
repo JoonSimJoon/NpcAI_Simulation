@@ -1,5 +1,6 @@
 #include "Main.h"
 #include "Mob.h"
+#include <iostream>
 #pragma once
 
 int main() {
@@ -8,6 +9,6 @@ int main() {
 	std::cout.tie();
 	srand(time(NULL));
 	init();
-
+	std::cout << "1\n";
 	return 0;
 }
